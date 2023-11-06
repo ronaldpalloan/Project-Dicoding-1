@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Rontaurant: 3 Michelin Stars</title>
+
+	<!-- My Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Logo Sosmed -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+	
+<!-- Header -->
+<header class="header" id="header">
+
+	<!-- Navigasi -->
+	<nav class="navigasi">
+		<div class="title">
+			<h1>Rontaurant</h1>
+		</div>
+		<div class="nav-list">
+			<ul>
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Our Menu</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Akhir Navigasi -->
+
+	<!-- Jumbotron -->
+	<div class="jumbotron">	
+		<img src="img/restaurant.jpg" alt="Restaurant Photo">
+		<div class="jumbotron-text">
+			<h2>Welcome to the Rontaurant</h2>
+			<p>Sebuah restoran dengan predikat bintang tiga Michelin yang terletak di Kota Malang</p>
+		</div>
+		<div class="gradient"></div>
+	</div>			
+	<!-- Akhir Jumbotron -->
+
+</header>
+<!-- Akhir Header -->
+
+<!-- Main -->
+<main class="main" id="about">
+	<div class="bagi-aside">
+		
+		<!-- Artikel 1 -->
+		<article class="reason">
+			<h2>Kenapa Memilih Kami?</h2>
+
+			<section class="section-1">			
+				<div class="article-text">
+					<h3>Juru Masak Berpengalaman</h3>
+					<p>Juru masak di restoran kami telah memiliki pengalaman bertahun-tahun di dunia kuliner dan menguasai jenis masakan yang berbeda-beda. Terdapat berbagai jenis makanan di restoran kami, seperti Western, Asian, Lokal, dll</p>
+				</div>		
+				<img src="img/gordon.jpg" alt="Juru Masak">
+			</section>
+
+			<section class="section-2">			
+				<div class="article-text">
+					<h3>Bintang Tiga Michelin</h3>
+					<p>Kami adalah satu-satunya restoran di Malang yang memiliki predikat bintang tiga Michelin. Predikat Michelin adalah salah satu penghargaan paling bergengsi dalam dunia kuliner</p>
+				</div>		
+				<img src="img/michelin.png" alt="Michelin Stars">	
+			</section>
+
+			<section class="section-3">					
+				<div class="article-text">
+					<h3>Pemandangan Yang Indah</h3>
+					<p>Restoran kami terletak di daerah pegunungan dengan suasana yang sejuk dan pemandangan yang menakjubkan. Tempat ini sangat cocok bagi kalian yang suka mengabadikan momen berharga bersama orang terdekat</p>
+				</div>				
+				<img src="img/view.jpg" alt="Pemandangan Indah">	
+			</section>
+		</article>
+
+		<!-- Aside -->
+		<aside>
+			<figure>
+				<img src="img/resto-aside.jpg" alt="Tampak Restaurant">
+				<figcaption>Rontaurant</figcaption>
+			</figure>
+			<p>Rontaurant pertama kali didirikan pada tahun 2015. Rontaurant memiliki misi untuk selalu menjadi restoran terbaik yang ada di Kota Malang.</p>
+
+			<p>"Membuat pelanggan senang dengan masakan kami adalah hal utama"</p>
+		</aside>
+	</div>
+
+	<!-- Artikel 2 -->
+	<article class="menu" id="menu">
+		<h2>Our Best Menu</h2>
+
+		<div class="container-menu">
+			<div class="card">
+				<div class="card-img card-img-1"></div>
+				<div class="card-info">
+					<h4>Siomay</h4>
+					<p class="price">Rp24.800,-</p>
+					<button class="button">Beli</button>
+				</div>
+			</div>	
+			<div class="card">
+				<div class="card-img card-img-2"></div>
+				<div class="card-info">
+					<h4>Hakau</h4>
+					<p class="price">Rp25.800,-</p>
+					<button class="button">Beli</button>
+				</div>
+			</div>		
+			<div class="card">
+				<div class="card-img card-img-3"></div>
+				<div class="card-info">
+					<h4>Lumpia Kulit Tahu</h4>
+					<p class="price">Rp25.800,-</p>
+					<button class="button">Beli</button>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="full">
+			<a href="#full-menu">
+				<button class="button large">Lihat Selengkapnya</button>
+			</a>
+
+			<div class="full-menu" id="full-menu">
+				<img src="img/full-menu.jpg" alt="">
+				<a href="#menu">
+					<button class="button small">X</button>
+				</a>
+			</div>
+		</div>
+	</article>
+
+</main>
+<!-- Akhir Main -->
+
+
+<!-- Footer -->
+<footer class="footer" id="footer">
+	<div class="form">
+		<form action="#">
+			<h2>Contact Us!</h2>	
+			<label for="nama">Nama <input type="text" id="nama" name="nama" placeholder="Your name"></label>	
+			<label for="email">Email <input type="email" id="email" name="email" placeholder="Your email"></label>
+			<label for="textarea">Pesan
+			<textarea id="textarea" cols="30" rows="8" name="pesan" placeholder="Apa yang ingin Anda sampaikan?"></textarea>
+			</label>
+			<button class="button" type="button" value="button">Submit</button>
+		</form>
+	</div>
+
+	<div class="address">
+		<h2>Find Us</h2>
+		<p>Jl. Sangkuriang Tenggara Blok AB, No. 147</p>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126438.28618020364!2d112.54937945566779!3d-7.978637204521634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78836d7c3805b3%3A0xd264311eac23553c!2sPondok%20Wisata%20Latar%20Ombo!5e0!3m2!1sen!2sid!4v1699093207674!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<div class="social-media">
+			<p>Check Our Social Media</p>
+     	<ul>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+    	</ul>
+		</div>
+</footer>
+<!-- Akhir Footer -->
+
+</body>
+</html>
